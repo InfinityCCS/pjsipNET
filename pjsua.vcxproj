@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug-Dynamic|Win32">
+      <Configuration>Debug-Dynamic</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug-Static|Win32">
+      <Configuration>Debug-Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-Dynamic|Win32">
+      <Configuration>Release-Dynamic</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-Static|Win32">
+      <Configuration>Release-Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8310649E-A25E-4AF0-91E8-9E3CC659BB89}</ProjectGuid>
+    <RootNamespace>pjsua</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-release-static-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-debug-dynamic-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-common-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-release-dynamic-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-debug-static-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-common-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-debug-static-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-common-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-release-dynamic-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-release-defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\output</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\dev\Infinity40\PJSIP\pjsipNET\pjproject\pjlib\include;C:\dev\Infinity40\PJSIP\pjsipNET\pjproject\pjlib-util\include;C:\dev\Infinity40\PJSIP\pjsipNET\pjproject\pjnath\include;C:\dev\Infinity40\PJSIP\pjsipNET\pjproject\pjmedia\include;C:\dev\Infinity40\PJSIP\pjsipNET\pjproject\pjsip\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\dev\Infinity40\PJSIP\pjsipNET\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>..\output\</OutDir>
+    <TargetName>$(ProjectName)-$(Platform)-vc$(VSVer)-$(Configuration)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>pjproject/pjsip/include;pjproject/pjlib/include;pjproject/pjlib-util/include;pjproject/pjmedia/include;pjproject/pjnath/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Iphlpapi.lib;dsound.lib;dxguid.lib;netapi32.lib;mswsock.lib;ws2_32.lib;odbc32.lib;odbccp32.lib;ole32.lib;user32.lib;gdi32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\output\$(ProjectName)-$(Platform)-vc$(VSVer)-$(Configuration).exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>pjproject/pjsip/include;pjproject/pjlib/include;pjproject/pjlib-util/include;pjproject/pjmedia/include;pjproject/pjnath/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Iphlpapi.lib;dsound.lib;dxguid.lib;netapi32.lib;mswsock.lib;ws2_32.lib;odbc32.lib;odbccp32.lib;ole32.lib;user32.lib;gdi32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>pjproject/pjsip/include;pjproject/pjlib/include;pjproject/pjlib-util/include;pjproject/pjmedia/include;pjproject/pjnath/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Iphlpapi.lib;dsound.lib;dxguid.lib;netapi32.lib;mswsock.lib;ws2_32.lib;odbc32.lib;odbccp32.lib;ole32.lib;user32.lib;gdi32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>pjproject/pjsip/include;pjproject/pjlib/include;pjproject/pjlib-util/include;pjproject/pjmedia/include;pjproject/pjnath/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Iphlpapi.lib;dsound.lib;dxguid.lib;netapi32.lib;mswsock.lib;ws2_32.lib;odbc32.lib;odbccp32.lib;ole32.lib;user32.lib;gdi32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>pjproject/pjsip/include;pjproject/pjlib/include;pjproject/pjlib-util/include;pjproject/pjmedia/include;pjproject/pjnath/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Iphlpapi.lib;dsound.lib;dxguid.lib;netapi32.lib;mswsock.lib;ws2_32.lib;odbc32.lib;odbccp32.lib;ole32.lib;user32.lib;gdi32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>pjproject/pjsip/include;pjproject/pjlib/include;pjproject/pjlib-util/include;pjproject/pjmedia/include;pjproject/pjnath/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Iphlpapi.lib;dsound.lib;dxguid.lib;netapi32.lib;mswsock.lib;ws2_32.lib;odbc32.lib;odbccp32.lib;ole32.lib;user32.lib;gdi32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="pjproject\pjsip-apps\src\pjsua\main.c" />
+    <ClCompile Include="pjproject\pjsip-apps\src\pjsua\pjsua_app.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="pjlib_util.vcxproj">
+      <Project>{fe07f272-ae7f-4549-9e9f-ef9b80cb1693}</Project>
+    </ProjectReference>
+    <ProjectReference Include="pjlib.vcxproj">
+      <Project>{da0e03ed-53a7-4050-8a85-90541c5509f8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="pjmedia.vcxproj">
+      <Project>{7fde3880-a4ab-49e3-b439-ebef0a0c7a65}</Project>
+    </ProjectReference>
+    <ProjectReference Include="pjmedia_audiodev.vcxproj">
+      <Project>{4281ca5e-1d48-45d4-a991-2718a454b4ba}</Project>
+    </ProjectReference>
+    <ProjectReference Include="pjmedia_codec.vcxproj">
+      <Project>{855dc8c0-d3e9-4a2e-ae47-116605a7bc9b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="pjmedia_videodev.vcxproj">
+      <Project>{a1989ff3-9894-40f4-b5a6-6ea364476e45}</Project>
+    </ProjectReference>
+    <ProjectReference Include="pjnath.vcxproj">
+      <Project>{a5d9aa24-08ed-48b9-bd65-f0a25e96bfc4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="pjsip_core.vcxproj">
+      <Project>{2bb84911-c1b4-4747-b93d-36aa82cc5031}</Project>
+    </ProjectReference>
+    <ProjectReference Include="pjsip_simple.vcxproj">
+      <Project>{4b5945cd-0cb3-49aa-a7ff-7612d93f82c0}</Project>
+    </ProjectReference>
+    <ProjectReference Include="pjsip_ua.vcxproj">
+      <Project>{b8719fd5-e8a6-4a36-943c-891d07f5dd21}</Project>
+    </ProjectReference>
+    <ProjectReference Include="pjsua_lib.vcxproj">
+      <Project>{9ca0fdfb-2172-41fc-b7f1-5ce915edcb37}</Project>
+    </ProjectReference>
+    <ProjectReference Include="libbaseclasses.vcxproj">
+      <Project>{e8a3f6fa-ae1c-4c8e-a0b6-9c8480324eaa}</Project>
+    </ProjectReference>
+    <ProjectReference Include="libg7221codec.vcxproj">
+      <Project>{2a3f241e-682c-47e1-9543-dc28708b406a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="libgsmcodec.vcxproj">
+      <Project>{e53aa5ff-b737-40aa-bd13-387efa99023d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="libilbccodec.vcxproj">
+      <Project>{b5fe16f8-3edb-4110-bd80-b4238cc01e8d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="libmilenage.vcxproj">
+      <Project>{4bf51c21-5a30-423b-82fe-1ed410e5769d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="libportaudio.vcxproj">
+      <Project>{3cf9ffa9-8387-4635-9d1b-e7944cbefeaa}</Project>
+    </ProjectReference>
+    <ProjectReference Include="libresample.vcxproj">
+      <Project>{6794b975-4e84-4f49-b2dc-c31f2224e03e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="libspeex.vcxproj">
+      <Project>{4b059dba-cd9c-4d0f-be8c-ffb4efd498e9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="libsrtp.vcxproj">
+      <Project>{f0dbaa03-1ba3-4e3b-a2ca-727e3d3ab858}</Project>
+    </ProjectReference>
+    <ProjectReference Include="libpjproject.vcxproj">
+      <Project>{23d7679c-764c-4e02-8b29-bb882ceeefe2}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

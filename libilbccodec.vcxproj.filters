@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{55b9c4cb-4380-4279-bfba-3eb06f462211}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{251d3da0-e2dd-406a-a803-7a5447836f0e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pjproject\third_party\ilbc\anaFilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\constants.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\createCB.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\doCPLC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\enhancer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\FrameClassify.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\gainquant.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\getCBvec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\helpfun.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\hpInput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\hpOutput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\iCBConstruct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\iCBSearch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\iLBC_decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\iLBC_encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\LPCdecode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\LPCencode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\lsf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\packing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\StateConstructW.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\StateSearchW.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\ilbc\syntFilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pjproject\third_party\ilbc\anaFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\createCB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\doCPLC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\enhancer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\FrameClassify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\gainquant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\getCBvec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\helpfun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\hpInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\hpOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\iCBConstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\iCBSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\iLBC_decode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\iLBC_define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\iLBC_encode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\LPCdecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\LPCencode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\lsf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\packing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\StateConstructW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\StateSearchW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\ilbc\syntFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

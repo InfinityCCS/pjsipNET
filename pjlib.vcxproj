@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug-Dynamic|Win32">
+      <Configuration>Debug-Dynamic</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug-Static|Win32">
+      <Configuration>Debug-Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-Dynamic|Win32">
+      <Configuration>Release-Dynamic</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-Static|Win32">
+      <Configuration>Release-Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DA0E03ED-53A7-4050-8A85-90541C5509F8}</ProjectGuid>
+    <RootNamespace>pjlib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-release-static-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-debug-dynamic-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-common-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-release-dynamic-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-debug-static-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-common-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-release-dynamic-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-debug-static-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-common-defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>lib\</OutDir>
+    <TargetName>$(ProjectName)-$(Platform)-vc$(VSVer)-$(Configuration)</TargetName>
+    <IncludePath>C:\dev\Infinity40\PJSIP\pjsipNET\pjproject\pjlib\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Lib>
+      <OutputFile>lib\$(ProjectName)-$(Platform)-vc$(VSVer)-$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="pjproject\pjlib\src\pj\activesock.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\addr_resolv_sock.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\array.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\config.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\ctype.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\errno.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\except.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\fifobuf.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\file_access_win32.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\file_io_ansi.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\file_io_win32.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\guid.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\guid_win32.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\hash.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\ioqueue_common_abs.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\ioqueue_select.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\ioqueue_winnt.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\ip_helper_win32.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\list.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\lock.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\log.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\log_writer_stdout.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\os_core_win32.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\os_error_win32.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\os_info.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\os_time_win32.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\os_timestamp_common.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\os_timestamp_win32.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\pool.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\pool_buf.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\pool_caching.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\pool_dbg.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\pool_policy_malloc.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\rand.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\rbtree.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\sock_bsd.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\sock_common.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\sock_qos_bsd.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\sock_qos_common.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\sock_qos_dummy.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\sock_qos_wm.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\sock_select.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\ssl_sock_common.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\ssl_sock_dump.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\ssl_sock_ossl.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\string.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\timer.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\types.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\unicode_win32.c" />
+    <ClCompile Include="pjproject\pjlib\src\pj\addr_resolv_linux_kernel.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\guid_simple.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\ioqueue_dummy.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\ioqueue_epoll.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\ip_helper_generic.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\log_writer_printk.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\os_core_linux_kernel.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\os_core_unix.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\os_error_linux_kernel.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\os_error_unix.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\os_time_linux_kernel.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\os_timestamp_linux.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\os_timestamp_linux_kernel.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\pool_policy_kmalloc.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\sock_linux_kernel.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pj\symbols.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pjproject\pjlib\src\pj\ioqueue_common_abs.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\activesock.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\addr_resolv.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\array.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\assert.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\config.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\config_site.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\config_site_sample.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\ctype.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\doxygen.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\equeue.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\errno.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\except.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\fifobuf.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\file_access.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\file_io.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\guid.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\hash.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\ioqueue.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\ip_helper.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\list.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\lock.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\log.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\math.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\os.h" />
+    <ClInclude Include="pjproject\pjlib\include\pjlib.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\pool.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\pool_alt.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\pool_buf.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\rand.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\rbtree.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\sock.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\sock_qos.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\sock_select.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\ssl_sock.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\string.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\timer.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\types.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\unicode.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\assert.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\cc_gcc.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\cc_msvc.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\ctype.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\errno.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\high_precision.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\m_alpha.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\m_i386.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\m_m68k.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\m_sparc.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\malloc.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\os_linux.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\os_linux_kernel.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\os_palmos.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\os_sunos.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\os_win32.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\os_win32_wince.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\rand.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\setjmp.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\size_t.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\socket.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\stdarg.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\stdfileio.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\string.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\time.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\compat\vsprintf.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\list_i.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\pool_i.h" />
+    <ClInclude Include="pjproject\pjlib\include\pj\string_i.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

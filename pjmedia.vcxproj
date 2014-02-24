@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug-Dynamic|Win32">
+      <Configuration>Debug-Dynamic</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug-Static|Win32">
+      <Configuration>Debug-Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-Dynamic|Win32">
+      <Configuration>Release-Dynamic</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-Static|Win32">
+      <Configuration>Release-Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7FDE3880-A4AB-49E3-B439-EBEF0A0C7A65}</ProjectGuid>
+    <RootNamespace>pjmedia</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-release-static-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-debug-dynamic-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-common-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-release-dynamic-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-debug-static-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-common-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-debug-static-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-common-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-release-dynamic-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-release-defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>lib\</OutDir>
+    <TargetName>$(ProjectName)-$(Platform)-vc$(VSVer)-$(Configuration)</TargetName>
+    <IncludePath>C:\dev\Infinity40\PJSIP\pjsipNET\pjproject\pjmedia\include;C:\dev\Infinity40\PJSIP\pjsipNET\pjproject;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../include;pjproject/pjlib/include;pjproject/pjlib-util/include;pjproject/pjnath/include;pjproject/third_party/portaudio/include;pjproject/third_party/speex/include;pjproject/third_party/build/srtp;pjproject/third_party/srtp/include;pjproject/third_party/srtp/crypto/include;../..;$(DXSDK_DIR)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Lib>
+      <OutputFile>lib\$(ProjectName)-$(Platform)-vc$(VSVer)-$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../include;pjproject/pjlib/include;pjproject/pjlib-util/include;pjproject/pjnath/include;pjproject/third_party/portaudio/include;pjproject/third_party/speex/include;pjproject/third_party/build/srtp;pjproject/third_party/srtp/include;pjproject/third_party/srtp/crypto/include;../..;$(DXSDK_DIR)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../include;pjproject/pjlib/include;pjproject/pjlib-util/include;pjproject/pjnath/include;pjproject/third_party/portaudio/include;pjproject/third_party/speex/include;pjproject/third_party/build/srtp;pjproject/third_party/srtp/include;pjproject/third_party/srtp/crypto/include;../..;$(DXSDK_DIR)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../include;pjproject/pjlib/include;pjproject/pjlib-util/include;pjproject/pjnath/include;pjproject/third_party/portaudio/include;pjproject/third_party/speex/include;pjproject/third_party/build/srtp;pjproject/third_party/srtp/include;pjproject/third_party/srtp/crypto/include;../..;$(DXSDK_DIR)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../include;pjproject/pjlib/include;pjproject/pjlib-util/include;pjproject/pjnath/include;pjproject/third_party/portaudio/include;pjproject/third_party/speex/include;pjproject/third_party/build/srtp;pjproject/third_party/srtp/include;pjproject/third_party/srtp/crypto/include;../..;$(DXSDK_DIR)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../include;pjproject/pjlib/include;pjproject/pjlib-util/include;pjproject/pjnath/include;pjproject/third_party/portaudio/include;pjproject/third_party/speex/include;pjproject/third_party/build/srtp;pjproject/third_party/srtp/include;pjproject/third_party/srtp/crypto/include;../..;$(DXSDK_DIR)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\alaw_ulaw.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\alaw_ulaw_table.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\avi_player.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\bidirectional.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\clock_thread.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\codec.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\conf_switch.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\conference.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\converter.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\converter_libswscale.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\delaybuf.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\echo_common.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\echo_port.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\echo_speex.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\echo_suppress.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\endpoint.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\errno.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\event.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\ffmpeg_util.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\format.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\g711.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\jbuf.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\master_port.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\mem_capture.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\mem_player.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\null_port.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\plc_common.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\port.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\resample_libsamplerate.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\resample_port.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\resample_resample.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\resample_speex.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\rtcp.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\rtcp_xr.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\rtp.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\sdp.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\sdp_cmp.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\sdp_neg.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\silencedet.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\sound_legacy.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\sound_port.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\splitcomb.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\stereo_port.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\stream.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\stream_common.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\stream_info.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\tonegen.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\transport_adapter_sample.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\transport_ice.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\transport_loop.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\transport_srtp.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\transport_udp.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\types.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\vid_codec.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\vid_codec_util.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\vid_port.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\vid_stream.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\vid_stream_info.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\vid_tee.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\wav_player.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\wav_playlist.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\wav_writer.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\wave.c" />
+    <ClCompile Include="pjproject\pjmedia\src\pjmedia\wsola.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\alaw_ulaw.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\avi.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\avi_stream.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\bidirectional.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\circbuf.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\clock.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\codec.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\conference.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\config.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\converter.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\delaybuf.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\doxygen.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\echo.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\echo_port.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\endpoint.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\errno.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\event.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\format.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\frame.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\g711.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\jbuf.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\master_port.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\mem_port.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\null_port.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\plc.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\port.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\resample.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\rtcp.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\rtcp_xr.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\rtp.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\sdp.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\sdp_neg.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\signatures.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\silencedet.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\sound.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\sound_port.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\splitcomb.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\stereo.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\stream.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\stream_common.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\tonegen.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\transport.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\transport_adapter_sample.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\transport_ice.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\transport_loop.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\transport_srtp.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\transport_udp.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\types.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\vid_codec.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\vid_codec_util.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\vid_port.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\vid_stream.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\vid_tee.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\wav_playlist.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\wav_port.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\wave.h" />
+    <ClInclude Include="pjproject\pjmedia\include\pjmedia\wsola.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

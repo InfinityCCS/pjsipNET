@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug-Dynamic|Win32">
+      <Configuration>Debug-Dynamic</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug-Static|Win32">
+      <Configuration>Debug-Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-Dynamic|Win32">
+      <Configuration>Release-Dynamic</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-Static|Win32">
+      <Configuration>Release-Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4B059DBA-CD9C-4D0F-BE8C-FFB4EFD498E9}</ProjectGuid>
+    <RootNamespace>libspeex</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-release-static-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-debug-dynamic-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-common-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-release-dynamic-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-debug-static-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-common-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-release-dynamic-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="vsprops\pjproject-vs8-debug-static-defaults.props" />
+    <Import Project="vsprops\pjproject-vs8-win32-common-defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>lib\</OutDir>
+    <TargetName>$(ProjectName)-$(Platform)-vc$(VSVer)-$(Configuration)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>lib\</OutDir>
+    <TargetName>$(ProjectName)-$(Platform)-vc$(VSVer)-$(Configuration)</TargetName>
+    <IncludePath>C:\dev\Infinity40\PJSIP\pjsipNET\pjproject\pjlib\include;C:\dev\Infinity40\PJSIP\pjsipNET\pjproject\third_party\build\speex;C:\dev\Infinity40\PJSIP\pjsipNET\pjproject\third_party\speex\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;../../speex/include;../../../pjlib/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;_WINDOWS;HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Lib>
+      <OutputFile>lib\$(ProjectName)-$(Platform)-vc$(VSVer)-$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;../../speex/include;../../../pjlib/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;_WINDOWS;HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Lib>
+      <OutputFile>lib\$(ProjectName)-$(Platform)-vc$(VSVer)-$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;../../speex/include;../../../pjlib/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;_WINDOWS;HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Lib>
+      <OutputFile>lib\$(ProjectName)-$(Platform)-vc$(VSVer)-$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;../../speex/include;../../../pjlib/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;_WINDOWS;HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Lib>
+      <OutputFile>lib\$(ProjectName)-$(Platform)-vc$(VSVer)-$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;../../speex/include;../../../pjlib/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;_WINDOWS;HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Lib>
+      <OutputFile>lib\$(ProjectName)-$(Platform)-vc$(VSVer)-$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;../../speex/include;../../../pjlib/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LIB;_WINDOWS;HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Lib>
+      <OutputFile>lib\$(ProjectName)-$(Platform)-vc$(VSVer)-$(Configuration).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\bits.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\cb_search.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\exc_10_16_table.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\exc_10_32_table.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\exc_20_32_table.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\exc_5_256_table.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\exc_5_64_table.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\exc_8_128_table.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\fftwrap.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\filterbank.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\filters.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\gain_table.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\gain_table_lbr.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\hexc_10_32_table.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\hexc_table.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\high_lsp_tables.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\kiss_fft.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\kiss_fftr.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\lpc.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\lsp.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\lsp_tables_nb.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\ltp.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\mdf.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\modes.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\modes_wb.c" />
+    <ClCompile Include="pjproject\third_party\speex\libspeex\nb_celp.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\preprocess.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\quant_lsp.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\resample.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\sb_celp.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\smallft.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\speex.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\speex_callbacks.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\speex_header.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\stereo.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\vbr.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\vq.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\window.c">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\_kiss_fft_guts.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\arch.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\cb_search.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\cb_search_sse.h" />
+    <ClInclude Include="pjproject\third_party\build\speex\config.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\fftwrap.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\filterbank.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\filters.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\filters_sse.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\fixed_debug.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\fixed_generic.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\kiss_fft.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\kiss_fftr.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\lpc.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\lsp.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\ltp.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\ltp_sse.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\math_approx.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\modes.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\nb_celp.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\os_support.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\pseudofloat.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\quant_lsp.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\sb_celp.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\smallft.h" />
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex.h" />
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_bits.h" />
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_callbacks.h" />
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_echo.h" />
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_header.h" />
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_jitter.h" />
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_preprocess.h" />
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_resampler.h" />
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_stereo.h" />
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_types.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\stack_alloc.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\vbr.h" />
+    <ClInclude Include="pjproject\third_party\speex\libspeex\vq.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

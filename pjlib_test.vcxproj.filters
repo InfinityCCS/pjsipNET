@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0c895083-9098-4b2e-b1a6-2a9f9862ec2c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{01cc5652-a1d0-44c2-a2b4-ba1b954f11e7}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{eb5742af-d929-4466-9c0c-17f8ebda410b}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\activesock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\atomic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\echo_clt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\errno.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\exception.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\fifobuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\hash_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\ioq_perf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\ioq_tcp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\ioq_udp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\ioq_unreg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\main_mod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\main_win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\mutex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\os.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\pool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\pool_perf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\rand.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\rbtree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\select.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\sleep.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\sock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\sock_perf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\ssl_sock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\thread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\timer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\timestamp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\udp_echo_srv_ioqueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\udp_echo_srv_sync.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjlib\src\pjlib-test\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pjproject\pjlib\src\pjlib-test\test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

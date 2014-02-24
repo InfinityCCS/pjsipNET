@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9fa9b8cd-9fdc-4dbc-a532-bfdcccebed91}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f43365e8-654c-45d9-ab53-7b8774277e5d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Doxygen Files">
+      <UniqueIdentifier>{58a11935-d3be-45e6-aefd-df1b694105e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pjproject\pjnath\src\pjnath\errno.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjnath\src\pjnath\ice_session.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjnath\src\pjnath\ice_strans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjnath\src\pjnath\nat_detect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjnath\src\pjnath\stun_auth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjnath\src\pjnath\stun_msg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjnath\src\pjnath\stun_msg_dump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjnath\src\pjnath\stun_session.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjnath\src\pjnath\stun_sock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjnath\src\pjnath\stun_transaction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjnath\src\pjnath\turn_session.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\pjnath\src\pjnath\turn_sock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pjproject\pjnath\include\pjnath\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\include\pjnath\errno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\include\pjnath\ice_session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\include\pjnath\ice_strans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\include\pjnath\nat_detect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\include\pjnath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\include\pjnath\stun_auth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\include\pjnath\stun_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\include\pjnath\stun_doc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\include\pjnath\stun_msg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\include\pjnath\stun_session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\include\pjnath\stun_transaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\include\pjnath\turn_session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\include\pjnath\turn_sock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\include\pjnath\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\docs\doc_ice.h">
+      <Filter>Doxygen Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\docs\doc_mainpage.h">
+      <Filter>Doxygen Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\docs\doc_nat.h">
+      <Filter>Doxygen Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\docs\doc_samples.h">
+      <Filter>Doxygen Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\docs\doc_stun.h">
+      <Filter>Doxygen Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\pjnath\docs\doc_turn.h">
+      <Filter>Doxygen Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

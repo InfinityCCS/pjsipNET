@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f4a8b665-92ff-406f-ae39-292b0f753575}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b3a60311-47fa-4a86-8283-a8d5f35e3ca3}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\bits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\cb_search.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\exc_10_16_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\exc_10_32_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\exc_20_32_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\exc_5_256_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\exc_5_64_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\exc_8_128_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\fftwrap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\filterbank.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\filters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\gain_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\gain_table_lbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\hexc_10_32_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\hexc_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\high_lsp_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\kiss_fft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\kiss_fftr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\lpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\lsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\lsp_tables_nb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\ltp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\mdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\modes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\modes_wb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\nb_celp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\preprocess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\quant_lsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\resample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\sb_celp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\smallft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\speex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\speex_callbacks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\speex_header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\stereo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\vbr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\vq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjproject\third_party\speex\libspeex\window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\_kiss_fft_guts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\arch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\cb_search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\cb_search_sse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\fftwrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\filterbank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\filters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\filters_sse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\fixed_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\fixed_generic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\kiss_fft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\kiss_fftr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\lpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\lsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\ltp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\ltp_sse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\math_approx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\modes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\nb_celp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\os_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\pseudofloat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\quant_lsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\sb_celp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\smallft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_bits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_echo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_jitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_preprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_resampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_stereo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\include\speex\speex_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\stack_alloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\vbr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\speex\libspeex\vq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pjproject\third_party\build\speex\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
